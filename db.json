@@ -3,6 +3,11 @@
         {
             "id" : 1,
             "name" : "friends"
+        },
+
+        {
+            "id": 2,
+            "name": "how i met your mother"
         }
 
     ],

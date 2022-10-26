@@ -5,7 +5,7 @@
 
     $json = json_decode($contents, true);
 
-    $method = $_SERVER('REQUEST_METHOD');
+    $method = $_SERVER['REQUEST_METHOD'];
 
     header('Content-type: application/json');
     $body = file_get_contents('php://input');
